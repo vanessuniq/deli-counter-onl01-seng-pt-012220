@@ -7,12 +7,14 @@ def line array
     array.each_with_index.map do |value, i|
     "#{i + 1}. #{value}"
   end 
+  n = new array
+  string = n.join(' ')
   
   if array.empty? 
     puts "The line is currently empty."
   else 
     array.each
-    puts "The line is currently: " + new array.join(' ')
+    puts "The line is currently: " + string
   end
   
 end 
