@@ -6,7 +6,8 @@ def line array
     else 
       def new array
         array.each_with_index.map do |value, index|
-       puts "#{index + 1}. #{value}"
+          puts "#{index + 1}. #{value}"
+        end 
       end 
       puts "The line is currently: #{(new array).join(' ') }"
     end 
