@@ -6,7 +6,7 @@ def line array
       puts "#{index +1}. #{value}"
     end 
   end 
-  array.empty? puts "The line is currently empty." : puts 
+  array.empty? puts "The line is currently empty." : puts "The line is currently: #{}"
 end 
 
 def take_a_number (katz_deli, name)
