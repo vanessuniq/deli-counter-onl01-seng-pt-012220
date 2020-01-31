@@ -2,10 +2,10 @@
 katz_deli = []
 def line katz_deli
   katz_deli.each_with_index do |value, index|
-    if katz_deli.empty?
-      "The line is currently empty"
+    if katz_deli == []
+      puts "The line is currently empty"
     else
-      "The line is currently #{index += 1}. #{value}"
+      puts "The line is currently #{index += 1}. #{value}"
     end 
   end 
 end 
