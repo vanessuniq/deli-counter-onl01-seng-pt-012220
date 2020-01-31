@@ -6,7 +6,11 @@ def line array
       puts "#{index +1}. #{value}"
     end 
   end 
-  array.empty? puts "The line is currently empty." | puts "The line is currently: #{new(array).join(' ')}"
+  if array.empty? 
+    puts "The line is currently empty."
+  else 
+    puts "The line is currently: #{new(array).join(' ')}"
+  end 
 end 
 
 def take_a_number (katz_deli, name)
