@@ -2,15 +2,18 @@
 katz_deli = []
 def new array
   array.each_with_index.map do |value, i|
-    puts ""
+    "#{i + 1}. #{value}"
 end
 
 def line array
+  def new array 
+    
+  end 
   if array.empty? 
     puts "The line is currently empty."
   else 
     array.each
-    puts "The line is currently: " + array.join(' ')
+    puts "The line is currently: " + new (array).join(' ')
   end 
 end 
 
