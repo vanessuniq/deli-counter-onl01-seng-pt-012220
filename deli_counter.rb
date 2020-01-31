@@ -1,16 +1,12 @@
 # Write your code here.
 katz_deli = []
 def line array
-    if array == []
-      puts "The line is currently empty."
-    else 
-      def new array
-        array.each_with_index.map do |value, index|
-          puts "#{index + 1}. #{value}"
-        end 
-      end 
-      puts "The line is currently: #{(new array).join(' ') }"
+  def new array
+    array.each_with_index.map do |value, index|
+      puts "#{index +1}. #{value}"
     end 
+  end 
+  array.empty? puts
 end 
 
 def take_a_number (katz_deli, name)
