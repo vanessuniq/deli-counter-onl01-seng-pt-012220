@@ -26,7 +26,7 @@ end
 
 def now_serving array
   until array.empty?
-    puts "Currently serving #{array.first}." 
+    puts "Currently serving #{array.shift}." 
   end 
   puts "There is nobody waiting to be served!"
   
