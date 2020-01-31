@@ -1,19 +1,20 @@
 # Write your code here.
 katz_deli = []
-def new array
-  
-end
 
 def line array
+  
   def new array 
-    
+    array.each_with_index.map do |value, i|
+    "#{i + 1}. #{value}"
   end 
+  
   if array.empty? 
     puts "The line is currently empty."
   else 
     array.each
     puts "The line is currently: " + new (array).join(' ')
-  end 
+  end
+  
 end 
 
 def take_a_number (katz_deli, name)
