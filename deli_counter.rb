@@ -6,6 +6,7 @@ def line array
   def new array 
     array.each_with_index.map do |value, i|
     "#{i + 1}. #{value}"
+    end 
   end 
   n = new array
   string = n.join(' ')
@@ -14,7 +15,7 @@ def line array
     puts "The line is currently empty."
   else 
     array.each
-    puts "The line is currently: " + string
+    puts "The line is currently: " + (new(array)).join(' ')
   end
   
 end 
