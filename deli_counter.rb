@@ -5,10 +5,8 @@ def line array
       puts "The line is currently empty."
     else 
       def new array
-        array.each_with_index.map do |value, index|
-       puts "#{index + 1}. #{value}"
-     
-     end 
+        
+      end 
       puts "The line is currently: #{new.join(' ') }"
     end 
 end 
