@@ -26,8 +26,8 @@ end
 
 def now_serving katz_deli
   while katz_deli != []
-    katz_deli.shift
     puts "Currently serving #{katz_deli[0]}." 
+    
   end 
   puts "There is nobody waiting to be served!"
   
