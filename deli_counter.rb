@@ -8,8 +8,6 @@ def line array
     "#{i + 1}. #{value}"
     end 
   end 
-  n = new array
-  string = n.join(' ')
   
   if array.empty? 
     puts "The line is currently empty."
