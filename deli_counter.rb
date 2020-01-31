@@ -1,5 +1,9 @@
 # Write your code here.
 katz_deli = []
+def new array
+  array.each_with_index.map do |value, i|
+    puts ""
+end
 
 def line array
   if array.empty? 
