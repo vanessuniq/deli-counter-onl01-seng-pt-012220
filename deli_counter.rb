@@ -5,6 +5,7 @@ def line array
   if array.empty? 
     puts "The line is currently empty."
   else 
+    array.each
     puts "The line is currently: " + array.join(' ')
   end 
 end 
