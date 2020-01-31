@@ -12,7 +12,7 @@ def line array
     puts "The line is currently empty."
   else 
     array.each
-    puts "The line is currently: " + new (array).join(' ')
+    puts "The line is currently: " + new(array).join(' ')
   end
   
 end 
