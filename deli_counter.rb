@@ -2,7 +2,7 @@
 katz_deli = []
 def new array
     array.each_with_index.map do |value, index|
-      puts "#{index +1}. #{value}"
+      puts (index +1).to_s + ". " + value"
     end
   end 
   
