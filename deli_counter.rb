@@ -24,10 +24,10 @@ def take_a_number (katz_deli, name)
   
 end
 
-def now_serving katz_deli
-  while katz_deli != []
-    puts "Currently serving #{katz_deli[1]}." 
-    katz_deli.shift
+def now_serving array
+  until array.empty?
+    puts "Currently serving #{array.first}." 
+    array.shift
   end 
   puts "There is nobody waiting to be served!"
   
