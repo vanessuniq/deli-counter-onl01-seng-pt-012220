@@ -4,10 +4,10 @@ def line array
     if array == []
       puts "The line is currently empty."
     else 
-      new = 
-      puts "The line is currently: "
-      
-      end 
+      new = array.each_with_index.map do |value, index|
+       puts "#{index + 1}. #{value}"
+     end 
+      puts "The line is currently: #{new.join(' ') }"
     end 
 end 
 
