@@ -11,10 +11,12 @@ def line array
 end 
 
 def take_a_number (katz_deli, name)
-  katz_deli << name 
-  katz_deli.each_with_index do |name, index|
-    puts "Welcome, #{name}. You are number #{index + 1} in line."
-  end 
+  if katz_deli == []
+    katz_deli << name
+    puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
+  else
+    
+  
 end
 
 def now_serving katz_deli
